@@ -1,7 +1,7 @@
-
+**Weather App**
 
 ```markdown
-**Weather App**
+
 
 Description
 The Weather App is a simple web application that displays current weather information based on the user's entered location. Featuring a clean and responsive interface, this app provides weather data including temperature, weather description, humidity, and wind speed. It uses the OpenWeatherMap API to fetch weather data.
@@ -17,7 +17,7 @@ Features
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/username/weather-app.git
+   https://github.com/meryzennn/weather-app.git
    ```
 
 2. **Open HTML File**
