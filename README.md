@@ -68,5 +68,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 If you have any questions or feedback, feel free to contact me at (mailto:me.ryzennn@gmail.com) or visit my [website](https://meryzennn.xyz).
-```
 
