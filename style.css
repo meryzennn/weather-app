@@ -13,17 +13,21 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: seagreen;
+    background: url('images/background.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .container{
     position: relative;
     width: 400px;
     height: 555px;
-    background: purple;
+    background: rgba(255,255,255,.1);
     border-radius: 16px;
     padding: 20px;
     color: #fff;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255,255,255,.2);
 }
 
 .search-box{
@@ -109,4 +113,36 @@ body{
     width: 100%;
     padding: 0 20px;
     display: flex;
+}
+
+.weather-details .humidity,
+.weather-details .wind {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.weather-details .humidity{
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+
+.weather-details .wind{
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+
+.weather-details i {
+    font-size: 50px;
+    margin-right: 10px;
+}
+.weather-details span {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.weather-details p {
+    font-size: 14px;
+    font-weight: 500;
 }
