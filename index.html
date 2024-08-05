@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -10,45 +11,33 @@
     <div class="container">
         <div class="search-box">
             <i class="bx bxs-map"></i>
-            <input type="text" placeholder="enter your location">
-            <button class="bx bx-search-alt"></button>
+            <input type="text" placeholder="Enter your location">
+            <button type="button" class="bx bx-search-alt"></button>
         </div>
 
         <div class="weather-box">
-            <div class="box">
-                <div class="info-weather">
-                    <div class="weather">
-                        <img src="images/cloud.png">
-                        <p class="temperature">0<span>ºC</span></p>
-                        <p class="description">Broken Clouds</p>
-                    </div>
-                </div>
-            </div>
+            <img src="images/cloud.png" alt="Weather Icon">
+            <p class="temperature">0<span>°C</span></p>
+            <p class="description">Broken Clouds</p>
         </div>
-        <div class="weather-details">
-            <div class="humidity"><i class='bx bx-water'></i>
-            <div class="text">
-                <div class="info-humidity">
-                    <span>0%</span>
-                </div>
-                <p>Humidity</p>
-            </div>
-            </div>
 
-            <div class="wind">
-                <i class='bx bx-wind' style='color:#ffffff' ></i>
+        <div class="weather-details">
+            <div class="humidity">
+                <i class='bx bx-water'></i>
                 <div class="text">
-                    <div class="info-wind">
-                        <span>0Km/h</span>
-                    </div>
+                    <span>0%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class='bx bx-wind'></i>
+                <div class="text">
+                    <span>0Km/h</span>
                     <p>Wind Speed</p>
                 </div>
-                </div>
-    
+            </div>
         </div>
     </div>
-
-
     <script src="script.js"></script>
 </body>
 </html>
