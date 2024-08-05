@@ -1,20 +1,18 @@
 
 
 ```markdown
-# Weather App
+**Weather App**
 
-## Description
-
+Description
 The Weather App is a simple web application that displays current weather information based on the user's entered location. Featuring a clean and responsive interface, this app provides weather data including temperature, weather description, humidity, and wind speed. It uses the OpenWeatherMap API to fetch weather data.
 
-## Features
-
+Features
 - **Location Search**: Enter a city name to get the current weather information.
 - **Weather Information**: Displays temperature, weather description, humidity, and wind speed.
 - **Responsive Design**: Optimized layout for various devices.
 - **Error Messages**: Shows an error message if the location is not found.
 
-## How to Use
+**How to Use**
 
 1. **Clone the Repository**
 
